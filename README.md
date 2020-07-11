@@ -1,7 +1,8 @@
 # Vue Native
 
 [![Backers on Open Collective](https://opencollective.com/vue-native-core/backers/badge.svg)](#backers)
- [![Sponsors on Open Collective](https://opencollective.com/vue-native-core/sponsors/badge.svg)](#sponsors) 
+[![Sponsors on Open Collective](https://opencollective.com/vue-native-core/sponsors/badge.svg)](#sponsors)
+[![Build Status](https://travis-ci.com/GeekyAnts/vue-native-core.svg?branch=master)](https://travis-ci.com/GeekyAnts/vue-native-core)
 
 Visit our website at [vue-native.io](https://vue-native.io) or read the official documentation [here](https://vue-native.io/docs/installation.html).
 
@@ -70,6 +71,10 @@ Hence these modules are no longer made available with Vue Native.
 - SwipeableListView
 - ViewPagerAndroid
 - WebView
+- DatePickerIOS
+- DatePickerAndroid
+- TimePickerAndroid
+- StatusBarIOS
 
 If you still wish to use them, you can import them explicitly from `react-native` (until they are removed) or from their individual forked packages.
 For more information, refer to [this page](https://facebook.github.io/react-native/blog/2019/03/12/releasing-react-native-059#lean-core-is-underway).
